@@ -23,4 +23,4 @@ jobs:
         run: npm install
 
       - name: Run only URL tests
-        run: npm test -- src/tests/url-checker.test.ts
+        run: npm test -- tests/url-checker.test.ts
